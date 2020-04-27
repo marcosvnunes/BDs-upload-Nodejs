@@ -161,11 +161,10 @@ module.exports = {
   // testURL: "http://localhost",
 
   // Setting this value to "fake" allows the use of fake timers for functions such as "setTimeout"
-  // timers: "real",
-
+  //timers: "real",
   // A map from regular expressions to paths to transformers
   // transform: undefined,
-
+  testTimeout:500,
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
   //   "/node_modules/"
